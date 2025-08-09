@@ -1,1 +1,30 @@
 /* your code */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: auto;
+    background: white;
+    border: 1px solid black;
+  }
+
+  thead {
+    background-color: blue;
+    color: white;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  th {
+    font-size: 12px;
+  }
